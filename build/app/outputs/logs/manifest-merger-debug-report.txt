@@ -1,0 +1,391 @@
+-- Merging decision tree log ---
+application
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:13:4-46:19
+MERGED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:19
+MERGED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:19
+MERGED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:24:5-36:19
+MERGED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:24:5-36:19
+MERGED from [:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-14:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\b174e742a314e3783e666abcdca3e2e2\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\b174e742a314e3783e666abcdca3e2e2\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\657d48052103e6d583361483daa1db44\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\657d48052103e6d583361483daa1db44\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\0b07e692b4bf15a3460e3b02599db299\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\0b07e692b4bf15a3460e3b02599db299\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\21f2bc5996482f0012b097c93afc511a\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\21f2bc5996482f0012b097c93afc511a\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8ae55c01be62fd21106ade4c3f78ddbd\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8ae55c01be62fd21106ade4c3f78ddbd\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\YOONHA\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\YOONHA\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\YOONHA\.gradle\caches\transforms-3\5613fa4c4ffbbff256a487e8a06a430c\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\YOONHA\.gradle\caches\transforms-3\5613fa4c4ffbbff256a487e8a06a430c\transformed\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\YOONHA\.gradle\caches\transforms-3\c6290d38a27dcf8d064fa9cefcb89071\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\YOONHA\.gradle\caches\transforms-3\c6290d38a27dcf8d064fa9cefcb89071\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\YOONHA\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:name
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml
+manifest
+ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [:shared_preferences_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:naver_map_plugin] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\naver_map_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-19:12
+MERGED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-38:12
+MERGED from [:package_info_plus] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\246793f755122fe14a5802655438cb75\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:2:1-40:12
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\b174e742a314e3783e666abcdca3e2e2\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\dcceaf7302222c662917d0e5df631c69\transformed\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\YOONHA\.gradle\caches\transforms-3\a7317bee857acd4ea19f0d56e2a92818\transformed\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\93c965e24040f9ba88efcc81151050cd\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\657d48052103e6d583361483daa1db44\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\0b07e692b4bf15a3460e3b02599db299\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\21f2bc5996482f0012b097c93afc511a\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8ae55c01be62fd21106ade4c3f78ddbd\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\YOONHA\.gradle\caches\transforms-3\0e0e1a382b52c0572988a1c50e96d2f7\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\9a02fb3f204ad5b65861abada8b09ac9\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\09f4f3349e09a0a6e74d78afeb70e89e\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\9e14bf9d24323ec841a3e31cde5f524b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\b9f9078897dae8c1947b268af9290409\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\YOONHA\.gradle\caches\transforms-3\45a1279d03022d340085a6b5ed07c6e9\transformed\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\045d2e69ed718df502093495707de7d0\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\906f41b23948e23cf276f1b1ba5ed41e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8fa8bdf086632123dcb3f9226ab7b2b9\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\3db694473890d00d37184af94df24c4c\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\89e3d4282810b041cf3bcc0e8d2c00eb\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\2fce982de6bcb65312b126b72c128883\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\3f85ff916fceceae301885a578d2bf52\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\d411e96186971239cc9320701a4aa95b\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\7a00f26f119e6345a841bd06bf8489d9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\d9bf91b217bda403486bc9d591007d64\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\YOONHA\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\YOONHA\.gradle\caches\transforms-3\5613fa4c4ffbbff256a487e8a06a430c\transformed\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\025f0ebb178f72f967988fd890b9b9c6\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\61be2594815516b1d798e8de806d8dcb\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\4d571c0d2420042bbe5204d312a62bb2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\ab7ce279708bbb9e6bfa95c7580f1bb9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\9a15d0431946b4658756ca271d093b65\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.naver.maps:geometry:1.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\d5b21be32a6a7dd1f11fd8ed0d76efce\transformed\jetified-geometry-1.2.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\274a6366c1fa82a9cda5f98fe858df07\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\33022110ab8edaeede9665dd42ecaa6e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\YOONHA\.gradle\caches\transforms-3\c6290d38a27dcf8d064fa9cefcb89071\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\57003bf956257e647aeaeb419a007e24\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\ea6a0879485e52a4f4039ca8778d8de8\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\4c666c731f72bca13b96ec6fea44ce5c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\e9ca322f243d3b7ed3a19622385d8532\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\YOONHA\.gradle\caches\transforms-3\ed9734c73cdec898947618088fbe87b0\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.1] C:\Users\YOONHA\.gradle\caches\transforms-3\114fae4ae0e0be37155ae6896425f389\transformed\jetified-relinker-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\YOONHA\.gradle\caches\transforms-3\58e3540d7f5a5bac6af9a8f8fab44363\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml:1:1-8:12
+	package
+		ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:2:5-37
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:3:5-78
+	android:name
+		ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:3:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:4:22-78
+queries
+ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:6:5-12:15
+MERGED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-22:15
+MERGED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-22:15
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:8:5-11:14
+action#android.intent.action.VIEW
+ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:9:9-61
+	android:name
+		ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:9:17-58
+data
+ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:10:9-40
+	android:scheme
+		ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:10:15-37
+uses-sdk
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml
+MERGED from [:shared_preferences_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:naver_map_plugin] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\naver_map_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:naver_map_plugin] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\naver_map_plugin\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\package_info_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\246793f755122fe14a5802655438cb75\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\246793f755122fe14a5802655438cb75\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\b174e742a314e3783e666abcdca3e2e2\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:18.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\b174e742a314e3783e666abcdca3e2e2\transformed\jetified-play-services-location-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\dcceaf7302222c662917d0e5df631c69\transformed\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\dcceaf7302222c662917d0e5df631c69\transformed\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\YOONHA\.gradle\caches\transforms-3\a7317bee857acd4ea19f0d56e2a92818\transformed\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\YOONHA\.gradle\caches\transforms-3\a7317bee857acd4ea19f0d56e2a92818\transformed\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\93c965e24040f9ba88efcc81151050cd\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\93c965e24040f9ba88efcc81151050cd\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\657d48052103e6d583361483daa1db44\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\657d48052103e6d583361483daa1db44\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\0b07e692b4bf15a3460e3b02599db299\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\0b07e692b4bf15a3460e3b02599db299\transformed\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\21f2bc5996482f0012b097c93afc511a\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\21f2bc5996482f0012b097c93afc511a\transformed\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8ae55c01be62fd21106ade4c3f78ddbd\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8ae55c01be62fd21106ade4c3f78ddbd\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\YOONHA\.gradle\caches\transforms-3\0e0e1a382b52c0572988a1c50e96d2f7\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\YOONHA\.gradle\caches\transforms-3\0e0e1a382b52c0572988a1c50e96d2f7\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\9a02fb3f204ad5b65861abada8b09ac9\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\9a02fb3f204ad5b65861abada8b09ac9\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\09f4f3349e09a0a6e74d78afeb70e89e\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\09f4f3349e09a0a6e74d78afeb70e89e\transformed\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\9e14bf9d24323ec841a3e31cde5f524b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\9e14bf9d24323ec841a3e31cde5f524b\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\b9f9078897dae8c1947b268af9290409\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\b9f9078897dae8c1947b268af9290409\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\YOONHA\.gradle\caches\transforms-3\45a1279d03022d340085a6b5ed07c6e9\transformed\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\YOONHA\.gradle\caches\transforms-3\45a1279d03022d340085a6b5ed07c6e9\transformed\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\045d2e69ed718df502093495707de7d0\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\045d2e69ed718df502093495707de7d0\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\906f41b23948e23cf276f1b1ba5ed41e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\906f41b23948e23cf276f1b1ba5ed41e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8fa8bdf086632123dcb3f9226ab7b2b9\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8fa8bdf086632123dcb3f9226ab7b2b9\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\3db694473890d00d37184af94df24c4c\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\3db694473890d00d37184af94df24c4c\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\89e3d4282810b041cf3bcc0e8d2c00eb\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\89e3d4282810b041cf3bcc0e8d2c00eb\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\2fce982de6bcb65312b126b72c128883\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\2fce982de6bcb65312b126b72c128883\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\3f85ff916fceceae301885a578d2bf52\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\3f85ff916fceceae301885a578d2bf52\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\d411e96186971239cc9320701a4aa95b\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\d411e96186971239cc9320701a4aa95b\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\7a00f26f119e6345a841bd06bf8489d9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\7a00f26f119e6345a841bd06bf8489d9\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\d9bf91b217bda403486bc9d591007d64\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\d9bf91b217bda403486bc9d591007d64\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\YOONHA\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\YOONHA\.gradle\caches\transforms-3\acbce933e4b464a5224ed377a62db1f5\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\YOONHA\.gradle\caches\transforms-3\5613fa4c4ffbbff256a487e8a06a430c\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\YOONHA\.gradle\caches\transforms-3\5613fa4c4ffbbff256a487e8a06a430c\transformed\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\025f0ebb178f72f967988fd890b9b9c6\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\025f0ebb178f72f967988fd890b9b9c6\transformed\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\61be2594815516b1d798e8de806d8dcb\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\61be2594815516b1d798e8de806d8dcb\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\4d571c0d2420042bbe5204d312a62bb2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\4d571c0d2420042bbe5204d312a62bb2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\ab7ce279708bbb9e6bfa95c7580f1bb9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\ab7ce279708bbb9e6bfa95c7580f1bb9\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\9a15d0431946b4658756ca271d093b65\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\9a15d0431946b4658756ca271d093b65\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.naver.maps:geometry:1.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\d5b21be32a6a7dd1f11fd8ed0d76efce\transformed\jetified-geometry-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.naver.maps:geometry:1.2.0] C:\Users\YOONHA\.gradle\caches\transforms-3\d5b21be32a6a7dd1f11fd8ed0d76efce\transformed\jetified-geometry-1.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\274a6366c1fa82a9cda5f98fe858df07\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\274a6366c1fa82a9cda5f98fe858df07\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\33022110ab8edaeede9665dd42ecaa6e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\33022110ab8edaeede9665dd42ecaa6e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\YOONHA\.gradle\caches\transforms-3\c6290d38a27dcf8d064fa9cefcb89071\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\YOONHA\.gradle\caches\transforms-3\c6290d38a27dcf8d064fa9cefcb89071\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\57003bf956257e647aeaeb419a007e24\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\57003bf956257e647aeaeb419a007e24\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\ea6a0879485e52a4f4039ca8778d8de8\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\ea6a0879485e52a4f4039ca8778d8de8\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\4c666c731f72bca13b96ec6fea44ce5c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\4c666c731f72bca13b96ec6fea44ce5c\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\e9ca322f243d3b7ed3a19622385d8532\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\YOONHA\.gradle\caches\transforms-3\e9ca322f243d3b7ed3a19622385d8532\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\YOONHA\.gradle\caches\transforms-3\ed9734c73cdec898947618088fbe87b0\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\YOONHA\.gradle\caches\transforms-3\ed9734c73cdec898947618088fbe87b0\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.1] C:\Users\YOONHA\.gradle\caches\transforms-3\114fae4ae0e0be37155ae6896425f389\transformed\jetified-relinker-1.4.1\AndroidManifest.xml:5:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.4.1] C:\Users\YOONHA\.gradle\caches\transforms-3\114fae4ae0e0be37155ae6896425f389\transformed\jetified-relinker-1.4.1\AndroidManifest.xml:5:5-43
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\YOONHA\.gradle\caches\transforms-3\58e3540d7f5a5bac6af9a8f8fab44363\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\YOONHA\.gradle\caches\transforms-3\58e3540d7f5a5bac6af9a8f8fab44363\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml:7:5-66
+MERGED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:18:5-67
+MERGED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+	android:enabled
+		ADDED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+	android:exported
+		ADDED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+	android:name
+		ADDED from [:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+package#com.kakao.talk
+ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-50
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-47
+package#com.kakao.onetalk
+ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-53
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:11:18-50
+package#com.locnall.KimGiSa
+ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-55
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:12:18-52
+package#com.lguplus.navi
+ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-52
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:13:18-49
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-21:18
+category#android.intent.category.BROWSABLE
+ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-74
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:18:23-71
+activity#com.kakao.sdk.flutter.TalkAuthCodeActivity
+ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-30:56
+	android:launchMode
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-44
+	android:exported
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+	android:configChanges
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-74
+	android:theme
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-53
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-70
+activity#com.kakao.sdk.flutter.AuthCodeCustomTabsActivity
+ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-35:56
+	android:launchMode
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-44
+	android:exported
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-36
+	android:theme
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-53
+	android:name
+		ADDED from [:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-76
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+uses-feature#0x00020000
+ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:11:5-13:35
+	android:glEsVersion
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:12:9-41
+	android:required
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:13:9-32
+uses-feature#android.hardware.wifi
+ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:15:9-45
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:20:22-73
+activity#com.naver.maps.map.app.LegendActivity
+ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:23:9-27:51
+	android:label
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:26:13-52
+	android:configChanges
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:25:13-91
+	android:theme
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:27:13-48
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:24:13-65
+activity#com.naver.maps.map.app.LegalNoticeActivity
+ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:28:9-32:51
+	android:label
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:31:13-58
+	android:configChanges
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:30:13-91
+	android:theme
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:32:13-48
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:29:13-70
+activity#com.naver.maps.map.app.OpenSourceLicenseActivity
+ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:33:9-37:51
+	android:label
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:36:13-65
+	android:configChanges
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:35:13-91
+	android:theme
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:37:13-48
+	android:name
+		ADDED from [com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:34:13-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\657d48052103e6d583361483daa1db44\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\657d48052103e6d583361483daa1db44\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\657d48052103e6d583361483daa1db44\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\657d48052103e6d583361483daa1db44\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8ae55c01be62fd21106ade4c3f78ddbd\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8ae55c01be62fd21106ade4c3f78ddbd\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\YOONHA\.gradle\caches\transforms-3\8ae55c01be62fd21106ade4c3f78ddbd\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
