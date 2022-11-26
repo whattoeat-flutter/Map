@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\YOONHA\\StudioProjects\\2.term\\term_proj2\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
+            "outputFile": "C:\\Users\\YOONHA\\GitHub\\Map\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
             "map": [
                 {
                     "source": "C:\\Users\\YOONHA\\.gradle\\caches\\transforms-3\\8ae55c01be62fd21106ade4c3f78ddbd\\transformed\\jetified-play-services-basement-17.5.0\\res\\values-sk\\values.xml",

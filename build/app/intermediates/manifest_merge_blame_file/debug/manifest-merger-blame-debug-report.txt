@@ -13,62 +13,62 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml:7:5-66
-15-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\debug\AndroidManifest.xml:7:22-64
+15-->C:\Users\YOONHA\GitHub\Map\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\YOONHA\GitHub\Map\android\app\src\debug\AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:3:5-78
-16-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:3:22-76
+16-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:3:5-78
+16-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:3:22-76
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:4:5-81
-17-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:4:22-78
+17-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:4:5-81
+17-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:4:22-78
 18
 19    <queries>
-19-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:6:5-12:15
+19-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:6:5-12:15
 20
 21        <!-- If your app opens https URLs -->
 22        <intent>
-22-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:8:5-11:14
+22-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:8:5-11:14
 23            <action android:name="android.intent.action.VIEW" />
-23-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:9:9-61
-23-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:9:17-58
+23-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:9:9-61
+23-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:9:17-58
 24
 25            <data android:scheme="https" />
-25-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:10:9-40
-25-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:10:15-37
+25-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:10:9-40
+25-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:10:15-37
 26        </intent>
 27
 28        <package android:name="com.kakao.talk" />
-28-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-50
-28-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-47
+28-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-50
+28-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-47
 29        <package android:name="com.kakao.onetalk" />
-29-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-53
-29-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:11:18-50
+29-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-53
+29-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:11:18-50
 30        <package android:name="com.locnall.KimGiSa" />
-30-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-55
-30-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:12:18-52
+30-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-55
+30-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:12:18-52
 31        <package android:name="com.lguplus.navi" />
-31-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-52
-31-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:13:18-49
+31-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-52
+31-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:13:18-49
 32
 33        <intent>
-33-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-21:18
+33-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-21:18
 34            <action android:name="android.intent.action.VIEW" />
-34-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:9:9-61
-34-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:9:17-58
+34-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:9:9-61
+34-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:9:17-58
 35
 36            <category android:name="android.intent.category.BROWSABLE" />
-36-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-74
-36-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:18:23-71
+36-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-74
+36-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:18:23-71
 37
 38            <data android:scheme="https" />
-38-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:10:9-40
-38-->C:\Users\YOONHA\StudioProjects\2.term\term_proj2\android\app\src\main\AndroidManifest.xml:10:15-37
+38-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:10:9-40
+38-->C:\Users\YOONHA\GitHub\Map\android\app\src\main\AndroidManifest.xml:10:15-37
 39        </intent>
 40    </queries>
 41
 42    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-42-->[:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
-42-->[:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+42-->[:geolocator_android] C:\Users\YOONHA\GitHub\Map\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+42-->[:geolocator_android] C:\Users\YOONHA\GitHub\Map\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
 43
 44    <uses-feature
 44-->[com.naver.maps:map-sdk:3.9.1] C:\Users\YOONHA\.gradle\caches\transforms-3\649d53900494a7018da24aa403fec993\transformed\jetified-map-sdk-3.9.1\AndroidManifest.xml:11:5-13:35
@@ -134,46 +134,46 @@
 94            android:value="tk6wgshx7f" />
 95
 96        <service
-96-->[:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+96-->[:geolocator_android] C:\Users\YOONHA\GitHub\Map\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
 97            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-97-->[:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+97-->[:geolocator_android] C:\Users\YOONHA\GitHub\Map\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
 98            android:enabled="true"
-98-->[:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+98-->[:geolocator_android] C:\Users\YOONHA\GitHub\Map\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
 99            android:exported="false"
-99-->[:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+99-->[:geolocator_android] C:\Users\YOONHA\GitHub\Map\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
 100            android:foregroundServiceType="location" />
-100-->[:geolocator_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+100-->[:geolocator_android] C:\Users\YOONHA\GitHub\Map\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
 101
 102        <activity
-102-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-30:56
+102-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-30:56
 103            android:name="com.kakao.sdk.flutter.TalkAuthCodeActivity"
-103-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-70
+103-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-70
 104            android:configChanges="orientation|screenSize|keyboardHidden"
-104-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-74
+104-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-74
 105            android:exported="false"
-105-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
+105-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37
 106            android:launchMode="singleTask"
-106-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-44
+106-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-44
 107            android:theme="@style/TransparentCompat" />
-107-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-53
+107-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-53
 108        <activity
-108-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-35:56
+108-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-35:56
 109            android:name="com.kakao.sdk.flutter.AuthCodeCustomTabsActivity"
-109-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-76
+109-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-76
 110            android:exported="true"
-110-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-36
+110-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-36
 111            android:launchMode="singleTask"
-111-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-44
+111-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-44
 112            android:theme="@style/TransparentCompat" />
-112-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-53
+112-->[:kakao_flutter_sdk_common] C:\Users\YOONHA\GitHub\Map\build\kakao_flutter_sdk_common\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-53
 113        <activity
-113-->[:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+113-->[:url_launcher_android] C:\Users\YOONHA\GitHub\Map\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
 114            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-114-->[:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+114-->[:url_launcher_android] C:\Users\YOONHA\GitHub\Map\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 115            android:exported="false"
-115-->[:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+115-->[:url_launcher_android] C:\Users\YOONHA\GitHub\Map\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
 116            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-116-->[:url_launcher_android] C:\Users\YOONHA\StudioProjects\2.term\term_proj2\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+116-->[:url_launcher_android] C:\Users\YOONHA\GitHub\Map\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
 117
 118        <uses-library
 118-->[androidx.window:window:1.0.0-beta04] C:\Users\YOONHA\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40

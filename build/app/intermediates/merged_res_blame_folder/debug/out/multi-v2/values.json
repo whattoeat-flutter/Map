@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\YOONHA\\StudioProjects\\2.term\\term_proj2\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\YOONHA\\GitHub\\Map\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\YOONHA\\.gradle\\caches\\transforms-3\\89e3d4282810b041cf3bcc0e8d2c00eb\\transformed\\coordinatorlayout-1.0.0\\res\\values\\values.xml",
@@ -20,6 +20,25 @@
                         "endLines": "20,1995,2728,2817",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "984,132860,178285,183496"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\YOONHA\\GitHub\\Map\\build\\kakao_flutter_sdk_common\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "12",
+                        "endColumns": "12",
+                        "endOffsets": "773"
+                    },
+                    "to": {
+                        "startLines": "1886",
+                        "startColumns": "4",
+                        "startOffsets": "124333",
+                        "endLines": "1896",
+                        "endColumns": "12",
+                        "endOffsets": "125006"
                     }
                 },
                 {
@@ -59,6 +78,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\YOONHA\\GitHub\\Map\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "1571,1576",
+                        "startColumns": "4,4",
+                        "startOffsets": "100263,100571",
+                        "endLines": "1575,1578",
+                        "endColumns": "12,12",
+                        "endOffsets": "100566,100735"
+                    }
+                },
+                {
                     "source": "C:\\Users\\YOONHA\\.gradle\\caches\\transforms-3\\9a02fb3f204ad5b65861abada8b09ac9\\transformed\\recyclerview-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "30,31,32,33,34,35,36,2",
@@ -75,25 +113,6 @@
                         "endLines": "319,320,321,329,330,331,401,3340",
                         "endColumns": "58,47,55,74,75,71,65,24",
                         "endOffsets": "18906,18954,19010,19696,19772,19844,24035,210709"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\YOONHA\\StudioProjects\\2.term\\term_proj2\\build\\kakao_flutter_sdk_common\\intermediates\\packaged_res\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "12",
-                        "endColumns": "12",
-                        "endOffsets": "773"
-                    },
-                    "to": {
-                        "startLines": "1886",
-                        "startColumns": "4",
-                        "startOffsets": "124333",
-                        "endLines": "1896",
-                        "endColumns": "12",
-                        "endOffsets": "125006"
                     }
                 },
                 {
@@ -168,25 +187,6 @@
                         "endLines": "173,174,175,176,177,178,179,180,470,471,472,473,474,475,476,477,479,480,481,482,483,484,485,486,487,3021,3396",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "8858,8938,9028,9118,9198,9279,9359,9439,28429,28610,28735,28842,29022,29145,29261,29364,29719,29824,30005,30130,30305,30453,30516,30578,30657,195085,213176"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\YOONHA\\StudioProjects\\2.term\\term_proj2\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "1571,1576",
-                        "startColumns": "4,4",
-                        "startOffsets": "100263,100571",
-                        "endLines": "1575,1578",
-                        "endColumns": "12,12",
-                        "endOffsets": "100566,100735"
                     }
                 },
                 {

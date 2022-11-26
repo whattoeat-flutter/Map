@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\YOONHA\\StudioProjects\\2.term\\term_proj2\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
+            "outputFile": "C:\\Users\\YOONHA\\GitHub\\Map\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
             "map": [
                 {
                     "source": "C:\\Users\\YOONHA\\.gradle\\caches\\transforms-3\\649d53900494a7018da24aa403fec993\\transformed\\jetified-map-sdk-3.9.1\\res\\values-ja\\values-ja.xml",

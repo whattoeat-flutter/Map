@@ -56,33 +56,31 @@ class _RestAPIState extends State<RestAPIPage> {
     send2server(data);
 
     //마커 추가
-    make_makrer_list(data);
+    make_marker_list(data);
 
   }
 
   send2server(List data_id) async {
-    List<String> str_request_id=[];
-    //String str_request_id='"';
-    for(int i=0;i<data_id.length;i++){
-      str_request_id.add(data_id[i]["id"]);
-      /*str_request_id += (data_id[i]["id"]);
-      if(i == data_id.length -1 ){
-        str_request_id+='"';
-      }else{
-        str_request_id+= '",';
-      }*/
+    List<String> id_list=[];
+    for(int i=0;i<data_id.length;i++) {
+      id_list.add(data_id[i]["id"].toString());
     }
+
+    Map request_id = {
+      'ids' : id_list
+    };
+
+    var body_id = json.encode(request_id);
     //string맞는지 확인 부탁드립니다.
     String str_url_server='http://35.243.115.214:8080/parse/';
     var url_server = Uri.parse(str_url_server);
     http.Response response_id = await http.post(
       url_server,
-      /*headers: <String, String> {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },*/
-      body: <String, List<String>> {
-        'ids': str_request_id,
+      headers: //<String, String>
+      {
+        'Content-Type': 'application/json',
       },
+      body: body_id
     );
 
 
@@ -94,7 +92,7 @@ class _RestAPIState extends State<RestAPIPage> {
       ),
     );
   }
-  make_makrer_list(List data){
+  make_marker_list(List data){
     for(int i = 0;i<data.length;i++){
       _markers.add(Marker(
         markerId: DateTime.now().toIso8601String(),
