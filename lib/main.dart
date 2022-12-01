@@ -45,7 +45,7 @@ class _MainPageState extends State<MainPage> {
 
   @override
   void initState() {
-    //사용자 위치 파악 함수, checkGps에서 getLocation부름으로써 위치 파악
+    //사용자 위치 파악 함수, checkGps에서 getLocation 부름으로써 위치 파악
     checkGps();
     super.initState();
   }
@@ -71,19 +71,19 @@ class _MainPageState extends State<MainPage> {
       }
 
       if(haspermission){
-        setState(() {
+        /*setState(() {
           //refresh the UI
-        });
-
+        });*/
+        //사용자 위치 파악
         getLocation();
       }
     }else{
       print("GPS Service is not enabled, turn on GPS location");
     }
 
-    setState(() {
+   /* setState(() {
       //refresh the UI
-    });
+    });*/
   }
 
   getLocation() async {
@@ -94,9 +94,9 @@ class _MainPageState extends State<MainPage> {
     long = position.longitude.toString();
     lat = position.latitude.toString();
 
-    setState(() {
+    /*setState(() {
       //refresh UI
-    });
+    });*/
 
     LocationSettings locationSettings = LocationSettings(
       accuracy: LocationAccuracy.high, //accuracy of the location data
@@ -112,13 +112,14 @@ class _MainPageState extends State<MainPage> {
       long = position.longitude.toString();
       lat = position.latitude.toString();
 
-      setState(() {
+      /*setState(() {
         //refresh UI on update
-      });
+      });*/
     });
   }
 
   @override
+  //의미 없는 화면 구성 코드, 합칠 때 삭제할 예정
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
@@ -157,6 +158,7 @@ class _MainPageState extends State<MainPage> {
     final index = menuText.indexOf(text);
     switch (index) {
       case 0:
+        //restapipage로 이동, 파라미터로 위치 넘김
         Navigator.push(
             context,
             MaterialPageRoute(

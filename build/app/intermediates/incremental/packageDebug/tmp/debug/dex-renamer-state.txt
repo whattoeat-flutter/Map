@@ -1,4 +1,4 @@
-#Sat Nov 26 21:36:27 KST 2022
+#Thu Dec 01 12:23:08 KST 2022
 base.0=C\:\\Users\\YOONHA\\GitHub\\Map\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

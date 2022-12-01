@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:collection';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -10,6 +11,7 @@ import 'package:geolocator/geolocator.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+
 
 class RestAPIPage extends StatefulWidget {
   const RestAPIPage({super.key, required this.pos});
@@ -23,7 +25,10 @@ class _RestAPIState extends State<RestAPIPage> {
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
   void initState() {
-    //근처 식당 15개 받아온다
+    //근처 식당 10개 받아온다
+    //받아온 respoonse값은 parsing 함수에서 처리한다
+      //1. 서버로 id 전달
+      //2. 마커 생성(몇 개?)
     searchID(widget.pos);
     super.initState();
   }
@@ -49,22 +54,28 @@ class _RestAPIState extends State<RestAPIPage> {
   parsing(var response_json){
     List data = [];
     var dataConvertedToJSON = json.decode(response_json.body);
+    Map result_map = {};
     List result = dataConvertedToJSON["documents"];
-    data.addAll(result);
+    result= result.sublist(0,10);
+    //카카오에서 받아온 카페정보 10개에 대해, id가 key값이 되도록 맵(result_map) 생성
+    for (int i = 0; i<result.length;i++){
+      result_map.addAll({result[i]['id']: result[i]});
+    }
 
     //id를 서버로 넘김
-    send2server(data);
+    send2server(result_map);
 
     //마커 추가
-    make_marker_list(data);
+    make_marker_list(result_map);
 
   }
 
-  send2server(List data_id) async {
+  send2server(Map data_kko) async {
     List<String> id_list=[];
-    for(int i=0;i<data_id.length;i++) {
-      id_list.add(data_id[i]["id"].toString());
-    }
+
+    data_kko.forEach((key, value) {
+      id_list.add(key.toString());
+    });
 
     Map request_id = {
       'ids' : id_list
@@ -74,7 +85,7 @@ class _RestAPIState extends State<RestAPIPage> {
     //string맞는지 확인 부탁드립니다.
     String str_url_server='http://35.243.115.214:8080/parse/';
     var url_server = Uri.parse(str_url_server);
-    http.Response response_id = await http.post(
+    http.Response response_server = await http.post(
       url_server,
       headers: //<String, String>
       {
@@ -83,7 +94,13 @@ class _RestAPIState extends State<RestAPIPage> {
       body: body_id
     );
 
-
+    List data_server = [];
+    //jsonDecode(utf8.decode(response.bodyBytes));
+    var responseBody = utf8.decode(response_server.bodyBytes);
+    //utf8.decode(response_server.body);
+    var dataConvertedToJSON_server = jsonDecode(responseBody);//json.utf8.decode(response_server.body);
+    //List result_server = dataConvertedToJSON_server["documents"];data_server.addAll(dataConvertedToJSON_server);
+    send2choosing(dataConvertedToJSON_server, data_kko);
     //basemappage로 넘어감
     Navigator.push(
       context,
@@ -92,15 +109,70 @@ class _RestAPIState extends State<RestAPIPage> {
       ),
     );
   }
-  make_marker_list(List data){
-    for(int i = 0;i<data.length;i++){
+  send2choosing(var dataConvertedToJSON_server, Map data_kko){
+    List<Map> shop_list = [];
+
+    dataConvertedToJSON_server.forEach((key, value) {
+      Map shop = {};
+      Map kakao={};
+      Map shop_value = {};
+      //id
+      shop['id']=key;
+      //name kko
+      //String name =
+      //category kko
+      //phonenum
+      String phonenum = value['phone'].toString();
+      //address
+      String address = value['address'].toString();
+      //locX kko
+      //locY kko
+      //placeUrl
+      String placeUrl = value['picture'].toString();
+      //menulist
+      //menuprices
+      //review_count
+      int review_count = int.parse(value['number_of_ratings']);
+      //rating
+      double rating = double.parse(value['number_of_ratings']);
+      //distance
+      //avg_price
+      //max_price
+      //shop['menulist']=value[0].value; //메뉴가 null인 경우?
+      shop_value=value;
+      List<Map> value_list = [];
+      value_list.add(shop_value);
+
+      shop_list.add(shop);
+    });
+    print("");
+    /*for(int i = 0 ; i<dataConvertedToJSON_server.length; i++){
+      Map shop = {};
+      Map temp = dataConvertedToJSON_server[i];
+      //shop['id']=.keys;
+      print("");
+    }*/
+
+  }
+  make_marker_list(Map data_kko){
+    data_kko.forEach((key, value) {
+      _markers.add(Marker(
+        markerId: DateTime.now().toIso8601String(),
+        position: LatLng(double.parse(value['y']), double.parse(value['x'])),//pos_marker,
+        infoWindow: '테스트',
+        //onMarkerTab: _onMarkerTap,
+      ));
+    });
+
+
+    /*for(int i = 0;i<data.length;i++){
       _markers.add(Marker(
         markerId: DateTime.now().toIso8601String(),
         position: LatLng(double.parse(data[i]['y']), double.parse(data[i]['x'])),//pos_marker,
         infoWindow: '테스트$i',
         //onMarkerTab: _onMarkerTap,
       ));
-    }
+    }*/
   }
 
   @override
