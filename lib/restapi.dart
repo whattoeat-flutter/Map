@@ -48,7 +48,6 @@ class _RestAPIState extends State<RestAPIPage> {
     var response_1 = await http.get(url, headers: {"Authorization": API_key});
 
     parsing(response_1);
-
   }
 
   parsing(var response_json){
@@ -94,12 +93,8 @@ class _RestAPIState extends State<RestAPIPage> {
       body: body_id
     );
 
-    List data_server = [];
-    //jsonDecode(utf8.decode(response.bodyBytes));
     var responseBody = utf8.decode(response_server.bodyBytes);
-    //utf8.decode(response_server.body);
     var dataConvertedToJSON_server = jsonDecode(responseBody);//json.utf8.decode(response_server.body);
-    //List result_server = dataConvertedToJSON_server["documents"];data_server.addAll(dataConvertedToJSON_server);
     send2choosing(dataConvertedToJSON_server, data_kko);
     //basemappage로 넘어감
     Navigator.push(
@@ -109,6 +104,7 @@ class _RestAPIState extends State<RestAPIPage> {
       ),
     );
   }
+  //파싱함수
   send2choosing(var dataConvertedToJSON_server, Map data_kko){
     List<Map> shop_list = [];
 
@@ -119,29 +115,49 @@ class _RestAPIState extends State<RestAPIPage> {
       //id
       shop['id']=key;
       //name kko
-      //String name =
+      //서버에서 받아온 id와 일치하는 id를 가진 kakao_response
+      kakao = data_kko[key];
+      shop['name'] = kakao['place_name'];
       //category kko
+      shop['category'] = kakao['category_name'];
       //phonenum
-      String phonenum = value['phone'].toString();
+      shop['phonenum'] = value['phone'].toString();
       //address
-      String address = value['address'].toString();
+      shop['address']  = value['address'].toString();
       //locX kko
+      shop['locX'] = kakao['x'];
       //locY kko
+      shop['locY'] = kakao['y'];
       //placeUrl
-      String placeUrl = value['picture'].toString();
+      shop['placeUrl'] = value['picture'].toString();
       //menulist
+      Map menu = {};
+      List menulist=[];
+      List menuprices=[];
+      menu = value['menus'];
+      if(menu.length > 0){
+        menu.forEach((key, value) {
+          menulist.add(key);
+          menuprices.add(value);
+        });
+      }else{
+        print("\'menus\' is empty.");
+      }
+      shop['menulist'] = menulist;
+      shop['menuprices'] = menuprices;
+
       //menuprices
       //review_count
-      int review_count = int.parse(value['number_of_ratings']);
+      shop['review_count']  = int.parse(value['number_of_ratings']);
       //rating
-      double rating = double.parse(value['number_of_ratings']);
+      shop['rating']  = double.parse(value['number_of_ratings']);
       //distance
       //avg_price
       //max_price
       //shop['menulist']=value[0].value; //메뉴가 null인 경우?
-      shop_value=value;
+      /*shop_value=value;
       List<Map> value_list = [];
-      value_list.add(shop_value);
+      value_list.add(shop_value);*/
 
       shop_list.add(shop);
     });
@@ -152,7 +168,7 @@ class _RestAPIState extends State<RestAPIPage> {
       //shop['id']=.keys;
       print("");
     }*/
-
+    
   }
   make_marker_list(Map data_kko){
     data_kko.forEach((key, value) {
